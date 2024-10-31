@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Contact Us – Farm Hill Education Trust</title>
+<title>People – Farm Hill Education Trust</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,12 +68,70 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-people .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-subtitle','listing-photo','listing-linkedin','listing-bio',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-subtitle","listing-photo","listing-linkedin","listing-bio"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-people'] = new List('listing-people', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -89,11 +149,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../people/index.html"> 
+    <a class="nav-link active" href="../people/index.html" aria-current="page"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../contact/index.html" aria-current="page"> 
+    <a class="nav-link" href="../contact/index.html"> 
 <span class="menu-text">Contact Us</span></a>
   </li>  
   <li class="nav-item">
@@ -108,21 +168,21 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Contact Us</h1>
+<h1 class="title">People</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page">
+<div class="quarto-title-meta">
 
     
   
@@ -134,72 +194,82 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="grid gap-0 gap-md-4 mb-3">
-    <div class="g-col-12 g-col-md-4 bg-light p-3 my-2 border">
-        <div><strong><i class="bi bi-envelope"></i> E-MAIL</strong></div>
-        <div><a href="mailto:hello@farmhill-learning.org">hello@farmhill-learning.com</a></div>
-    </div>
-    <div class="g-col-12 g-col-md-4 bg-light p-3 my-2 border">
-        <div><strong><i class="bi bi-telephone"></i> PHONE</strong></div>
-        <div><a href="tel:+918431032239">+91 84310 32239</a></div>
-    </div>
-    <div class="g-col-12 g-col-md-4 bg-light p-3 my-2 border">
-        <div><strong><i class="bi bi-whatsapp"></i> WHATSAPP</strong></div>
-        <div><a href="https://wa.me/918431032239?text=I%27m+interested+to+know+more+about+Farmhill">+917760764217</a>
+<div id="listing-people" class="quarto-listing quarto-listing-container-custom">
+
+    <div class="person rounded-2 border grid">
+        <div class="g-col-12 g-col-md-4 g-col-lg-2">
+            
+                <img class="square-image w-100" src="venu.jpg">
+            
+        </div>
+        <div class="g-col-12 g-col-md-8 g-col-lg-10">
+            <div class="person-header text-center-sm">
+                <h4 class="anchored">Venu</h4>
+                <div class="person-subtitle">Math/Writing/Gyan</div>
+
+                
+                    <div class="linkedin-link">
+                        <a href="https://www.linkedin.com/in/venugvgk/" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                
+            </div>
+
+            <p>Venu loves reading and talking to people. Most times,
+you will find him in conversations, where he can hold forth
+on a variety of topics, or reading in his study. During school times,
+he just changes the topics of conversation to Math, English or Economics.
+He has a couple of decades of experience in teaching, mentoring and management.
+He enjoys reading, writing, posting pictures of everything to
+facebook/instagram and walking around, looking at the plants.
+
+            </p>
         </div>
     </div>
+
+<style type="text/css">
+.person {
+    background: #f0f0f0;
+    padding: 20px;
+    margin: 20px 0px;
+    /* border: 1px solid #ddd; */
+}
+
+.person h4 {
+    margin: 0px !important;
+}
+
+.person-photo {
+    margin: -20px;
+}
+
+/* .person img {
+    background-clip: border-box;
+    border-radius: 50%;
+} */
+
+.person-subtitle {
+    font-style: italic;
+    color: #666;
+}
+
+.person-header {
+    margin-bottom: 10px;
+}
+
+/*
+@media (max-width: 576px) {
+    .person-header {
+        text-align: center;
+    }
+}
+*/
+
+</style>
+<div class="listing-no-matching d-none">
+No matching items
 </div>
-<div class="grid contact">
-    <div class="g-col-12 g-col-md-6">
-
-    <h2 class="anchored">Leave us a message</h2>
-    <p>You can also write to using the form below. Please choose the subject appropriately. Thank you!</p>
-
-        <form action="https://api.web3forms.com/submit" method="POST" class="p-3 bg-light border">
-            <input type="hidden" name="access_key" value="bdd5b684-4a59-4066-bb9e-b7c924235351">
-
-            <!-- <div class="mb-3">
-                <select name="subject" class="form-control">
-                    <option value="Looking for Admission" selected>Looking for Admission</option>
-                    <option value="Internships">Internships</option>
-                    <option value="Joining the Team">Joining the Team</option>
-                    <option value="General">General</option>
-                </select>
-            </div> -->
-
-            <div class="mb-3">
-                <input type="text" class="form-control" name="name" id="name" placeholder="Your Full Name" required="">
-            </div>
-            <div class="mb-3">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email Address">
-            </div>
-            <div class="mb-3">
-                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone Number" required="">
-            </div>
-
-            <div class="mb-3">
-                <textarea class="form-control" id="message" name="message" placeholder="Your message" rows="3" required=""></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Send Message</button>
-        </form>
-    </div>
-    <div class="g-col-12 g-col-md-6">
-
-    <h2 class="anchored">Visit Us</h2>
-        <div class="mb-3">
-                <h4 class="anchored">Farm Hill learning</h4>
-                <div class="address">Chennenapalli,
-                Near Medupalli Shoolagiri,
-                Krishnagiri District,
-                Tamil Nadu
-                </div>
-            <div>
-                <i class="bi bi-geo-alt"></i>
-                <a href="https://maps.app.goo.gl/yT62avQWDnZLGaz37">Google Maps</a>
-            </div>
-        </div>
-    </div>
 </div>
+
 
 
 
