@@ -1,0 +1,56 @@
+---
+title: "Farm Hill Education Trust"
+subtitle: We are a neurodiverse community of children and adults, learning together in a close to nature setting.
+page-layout: custom
+
+format:
+  html:
+    template-partials:
+      - _theme/hero/title-block.html
+
+buttons:
+    - text: Know More...
+      href: /about/
+      class: primary
+
+# hero-background-image: images/banner.jpg
+hero-background-color: "#f2e6cc"
+hero-color: black
+
+---
+
+::: {.container}
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+
+### [Sambhavam Center for Autism](https://sambhavam-autism.com/)
+
+Sambhavam Center for Autism is a community of parents and therapists working with children on the sprectrum up to 8 years of age.
+
+[Visit Sambhavam &rarr;](https://sambhavam-autism.com/)
+
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### [Farm Hill Learning Community](https://farmhill-learning.org/)
+
+A neurodiverse community of children and adults, learning together in a close to nature setting.
+
+[Visit Farm Hill Learning Community &rarr;](https://farmhill-learning.org/)
+
+:::
+
+
+::: {.g-col-12 .g-col-md-4}
+### [Subodha Learning Community](https://farmhill-learning.org/subodha)
+
+A learning community, supporting neurodiverse learners and their families through early intervention, education, employment and life, in Bangalore.
+
+[Visit Subodha Learning Community &rarr;](https://farmhill-learning.org/subodha)
+
+
+:::
+
+:::
