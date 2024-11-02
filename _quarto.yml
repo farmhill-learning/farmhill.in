@@ -7,8 +7,15 @@ website:
     background: primary
     left:
       - people/index.qmd
-      - contact/index.qmd
       - about/index.qmd
+      - contact/index.qmd      
+      - support-us/index.qmd
+
+    tools:
+      - icon: whatsapp
+        href: "https://wa.me/918431032239?text=I%27m+interested+to+know+more+about+Subodha."
+      - icon: bi bi-telephone
+        href: tel:+918431032239    
 
 format:
   html:
