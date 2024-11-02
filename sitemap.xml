@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://farmhill.in/index.html</loc>
-    <lastmod>2024-11-01T06:35:00.602Z</lastmod>
-  </url>
-  <url>
-    <loc>https://farmhill.in/people/index.html</loc>
-    <lastmod>2024-11-01T06:35:00.602Z</lastmod>
-  </url>
-  <url>
-    <loc>https://farmhill.in/contact/index.html</loc>
-    <lastmod>2024-11-01T06:35:00.602Z</lastmod>
+    <loc>https://farmhill.in/support-us/index.html</loc>
+    <lastmod>2024-11-02T07:02:40.327Z</lastmod>
   </url>
   <url>
     <loc>https://farmhill.in/about/index.html</loc>
-    <lastmod>2024-11-01T06:35:00.602Z</lastmod>
+    <lastmod>2024-11-02T07:02:40.323Z</lastmod>
+  </url>
+  <url>
+    <loc>https://farmhill.in/contact/index.html</loc>
+    <lastmod>2024-11-02T07:02:40.323Z</lastmod>
+  </url>
+  <url>
+    <loc>https://farmhill.in/people/index.html</loc>
+    <lastmod>2024-11-02T07:02:40.327Z</lastmod>
+  </url>
+  <url>
+    <loc>https://farmhill.in/index.html</loc>
+    <lastmod>2024-11-02T07:02:40.327Z</lastmod>
   </url>
 </urlset>
