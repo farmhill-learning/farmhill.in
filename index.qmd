@@ -1,6 +1,6 @@
 ---
 title: "Farm Hill Education Trust"
-subtitle: We are a neurodiverse community of children and adults, learning together in a close to nature setting.
+subtitle: Education | Neurodiversity | Community
 page-layout: custom
 
 format:
@@ -19,7 +19,6 @@ hero-color: black
 
 ---
 
-::: {.container}
 
 ::: {.grid}
 
@@ -44,13 +43,21 @@ A neurodiverse community of children and adults, learning together in a close to
 
 
 ::: {.g-col-12 .g-col-md-4}
-### [Subodha Learning Community](https://farmhill-learning.org/subodha)
+### [Subodha Learning Community](https://subodha.farmhill.in)
 
 A learning community, supporting neurodiverse learners and their families through early intervention, education, employment and life, in Bangalore.
 
-[Visit Subodha Learning Community &rarr;](https://farmhill-learning.org/subodha)
+[Visit Subodha Learning Community &rarr;](https://subodha.farmhill.in)
 
 
 :::
+
+:::
+
+::: {.page-cta}
+
+#### Join the Mission!
+
+<a href="/support-us" class="btn btn-primary">Support Us</a>
 
 :::

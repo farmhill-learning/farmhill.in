@@ -2,4 +2,26 @@
 title: "About"
 ---
 
-About this site
+Farm Hill Education Trust is committed to working in the areas of Education, Neurodiversity and Community. 
+
+We aspire to build communities of support that ensure right education for children, and be inclusive of neurodiverse people. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+::: {.page-cta}
+
+#### Join the Mission!
+
+<a href="/support-us" class="btn btn-primary">Support Us</a>
+
+:::
