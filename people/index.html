@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-people .list');
+    const listingTargetEl = window.document.querySelector('#listing-trusties .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -84,7 +84,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-people'] = new List('listing-people', options);
+    window['quarto-listings']['listing-trusties'] = new List('listing-trusties', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-advisory-board .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-subtitle','listing-photo','listing-linkedin','listing-bio',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-name","listing-subtitle","listing-photo","listing-linkedin","listing-bio"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-advisory-board'] = new List('listing-advisory-board', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -131,7 +159,7 @@ window.Quarto = {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -174,12 +202,12 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -188,7 +216,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -200,7 +228,87 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-people" class="quarto-listing quarto-listing-container-custom">
+<section id="trusties" class="level2">
+<h2 class="anchored" data-anchor-id="trusties">Trusties</h2>
+<div id="listing-trusties" class="quarto-listing quarto-listing-container-custom">
+
+    <div class="person rounded-2 border grid">
+        <div class="g-col-12 g-col-md-4 g-col-lg-2">
+            
+                <img class="square-image w-100" src="venu.jpg">
+            
+        </div>
+        <div class="g-col-12 g-col-md-8 g-col-lg-10">
+            <div class="person-header text-center-sm">
+                <h4 class="anchored">Venu</h4>
+                <div class="person-subtitle">Math/Writing/Gyan</div>
+
+                
+                    <div class="linkedin-link">
+                        <a href="https://www.linkedin.com/in/venugvgk/" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                
+            </div>
+
+            <p>Venu loves reading and talking to people. Most times,
+you will find him in conversations, where he can hold forth
+on a variety of topics, or reading in his study. During school times,
+he just changes the topics of conversation to Math, English or Economics.
+He has a couple of decades of experience in teaching, mentoring and management.
+He enjoys reading, writing, posting pictures of everything to
+facebook/instagram and walking around, looking at the plants.
+
+            </p>
+        </div>
+    </div>
+
+<style type="text/css">
+.person {
+    background: #f0f0f0;
+    padding: 20px;
+    margin: 20px 0px;
+    /* border: 1px solid #ddd; */
+}
+
+.person h4 {
+    margin: 0px !important;
+}
+
+.person-photo {
+    margin: -20px;
+}
+
+/* .person img {
+    background-clip: border-box;
+    border-radius: 50%;
+} */
+
+.person-subtitle {
+    font-style: italic;
+    color: #666;
+}
+
+.person-header {
+    margin-bottom: 10px;
+}
+
+/*
+@media (max-width: 576px) {
+    .person-header {
+        text-align: center;
+    }
+}
+*/
+
+</style>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="advisory-board" class="level2">
+<h2 class="anchored" data-anchor-id="advisory-board">Advisory Board</h2>
+<div id="listing-advisory-board" class="quarto-listing quarto-listing-container-custom">
 
     <div class="person rounded-2 border grid">
         <div class="g-col-12 g-col-md-4 g-col-lg-2">
@@ -278,6 +386,7 @@ No matching items
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
