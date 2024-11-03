@@ -19,6 +19,7 @@ hero-color: black
 
 ---
 
+::: {.container}
 
 ::: {.grid}
 
@@ -59,5 +60,7 @@ A learning community, supporting neurodiverse learners and their families throug
 #### Join the Mission!
 
 <a href="/support-us" class="btn btn-primary">Support Us</a>
+
+:::
 
 :::
