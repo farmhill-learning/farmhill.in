@@ -7,9 +7,9 @@ listing:
   - id: trusties
     template: ../_theme/people.ejs
     contents: trusties.yml
-  - id: advisory-board
-    template: ../_theme/people.ejs
-    contents: advisory-board.yml
+#  - id: advisory-board
+#   template: ../_theme/people.ejs
+#    contents: advisory-board.yml
 ---
 
 
@@ -18,7 +18,7 @@ listing:
 ::: {#trusties}
 :::
 
-## Advisory Board
+<!-- ## Advisory Board -->
 
 ::: {#advisory-board}
 :::
