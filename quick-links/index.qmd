@@ -7,26 +7,45 @@ title: Quick Links
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
+![](farmhill-logo2.png){width="80%"}
+
 ### Farm Hill Learning Community
 
 Website: [Farmhill Learning Community](https://farmhill-learning.org/)
 
 Insta: [Farmhill.learning](https://www.instagram.com/farmhill.learning/)
+
+
+Facebook: [farmhilllearning](https://www.facebook.com/farmhilllearning)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
+![](subodha.png)
+
 ### Subodha Learning Community
 
 Website: [Subodha Learning Community](https://subodha.farmhill.in/)
 
 Insta: [subodhacommunity](https://www.instagram.com/subodhacommunity/#)
+
+Facebook: [subodhacommunity](https://www.facebook.com/subodhacommunity)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### Sambhavam Center for Autsism
+![](sambhavam-logo.png)
+
+### Sambhavam Center for Autism
 Website: [Sambhavam Center for Autism](https://sambhavam-autism.com/)
 
 Insta: [sambhavam.autism](https://www.instagram.com/sambhavam.autism/)
+
+Facebook: [sambhavamautism](https://www.facebook.com/SambhavamAutism)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+
+### Aurtist Akhil
+Insta: [Aurtist.Akhil](http://www.instagram.com/aurtist.akhil)
 :::
 :::
 :::
