@@ -1,0 +1,32 @@
+---
+title: Quick Links
+---
+
+::: {.container}
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### Farm Hill Learning Community
+
+Website: [Farmhill Learning Community](https://farmhill-learning.org/)
+
+Insta: [Farmhill.learning](https://www.instagram.com/farmhill.learning/)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Subodha Learning Community
+
+Website: [Subodha Learning Community](https://subodha.farmhill.in/)
+
+Insta: [subodhacommunity](https://www.instagram.com/subodhacommunity/#)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Sambhavam Center for Autsism
+Website: [Sambhavam Center for Autism](https://sambhavam-autism.com/)
+
+Insta: [sambhavam.autism](https://www.instagram.com/sambhavam.autism/)
+:::
+:::
+:::

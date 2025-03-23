@@ -10,7 +10,7 @@ website:
       - about/index.qmd
       - contact/index.qmd      
       - support-us/index.qmd
-
+      - quick-links/index.qmd 
     tools:
       - icon: whatsapp
         href: "https://wa.me/918431032239?text=I%27m+interested+to+know+more+about+Subodha."
