@@ -28,11 +28,55 @@ Our aim is to meet people that would otherwise not come in direct touch with aut
 
 Come join us, learn more about autism and partake in the delights of divergence!!
 
-
 :::
 :::
 :::
 
+## Glimpses of Previous Editions
+
+::: {.container}
+
+### 2024
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+![](a.jpg)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](b.jpg)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](c.jpg)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](d.jpg)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](j.jpg)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](f.jpg)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](e.jpg)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](k.jpg)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](i.jpg)
+:::
+
+:::
+:::
 
 
 
