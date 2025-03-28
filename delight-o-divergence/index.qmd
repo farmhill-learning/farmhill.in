@@ -32,6 +32,54 @@ Come join us, learn more about autism and partake in the delights of divergence!
 :::
 :::
 
+## Sample Items for Sale
+
+::: {.container}
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+![](items\BF.JPG)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](items\bowl.jpg)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](items\butta.JPG)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](items\ear-rings.JPG)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](items\key-chains.JPG)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](items\lamp.JPG)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](items\plush-toys.JPG)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](items\scrunchie.JPG)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+![](items\sundried-tomatoes.JPG)
+:::
+
+:::
+:::
+
+
+
+
 ## Glimpses of Previous Editions
 
 ::: {.container}
