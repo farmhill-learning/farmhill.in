@@ -43,7 +43,7 @@ Come join us, learn more about autism and partake in the delights of divergence!
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](items/bowl.jpg)
+![](items/bowl.JPG)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
