@@ -39,39 +39,39 @@ Come join us, learn more about autism and partake in the delights of divergence!
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-![](items\BF.JPG)
+![](items/BF.JPG)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](items\bowl.jpg)
+![](items/bowl.jpg)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](items\butta.JPG)
+![](items/butta.JPG)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](items\ear-rings.JPG)
+![](items/ear-rings.JPG)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](items\key-chains.JPG)
+![](items/key-chains.JPG)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](items\lamp.JPG)
+![](items/lamp.JPG)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](items\plush-toys.JPG)
+![](items/plush-toys.JPG)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](items\scrunchie.JPG)
+![](items/scrunchie.JPG)
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-![](items\sundried-tomatoes.JPG)
+![](items/sundried-tomatoes.JPG)
 :::
 
 :::
