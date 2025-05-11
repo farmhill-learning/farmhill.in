@@ -19,37 +19,59 @@ hero-color: black
 
 ---
 
+::: {.container text-align='center'}
+
+### Our Initiatives 
+
+###### We aspire to build communities of support that ensure right education for children, and be inclusive of neurodiversity 
+
+:::
+
 ::: {.container}
 
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
 
-### [Sambhavam Center for Autism](https://sambhavam-autism.com/)
 
-Sambhavam Center for Autism is a community of parents and therapists working with children on the sprectrum up to 8 years of age.
+![](/logos/sambhavam-logo.png){width="80%"}
 
-[Visit Sambhavam &rarr;](https://sambhavam-autism.com/)
+An early intervention center supporting families with children on the sprectrum up to 8 years of age, based in Bangalore
+
+Website: [Sambhavam Center for Autism](https://sambhavam-autism.com/)
+
+Insta: [sambhavam.autism](https://www.instagram.com/sambhavam.autism/)
+
+Facebook: [sambhavamautism](https://www.facebook.com/SambhavamAutism)
 
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### [Farm Hill Learning Community](https://farmhill-learning.org/)
 
-A neurodiverse community of children and adults, learning together in a close to nature setting.
+![](/logos/farmhill-logo2.png){width="80%"}
 
-[Visit Farm Hill Learning Community &rarr;](https://farmhill-learning.org/)
+A neurodiverse community of children and adults, learning together in a close to nature setting, on a mango farm near Hosur
+
+Website: [Farmhill Learning Community](https://farmhill-learning.org/)
+
+Insta: [Farmhill.learning](https://www.instagram.com/farmhill.learning/)
+
+Facebook: [farmhilllearning](https://www.facebook.com/farmhilllearning)
 
 :::
 
 
 ::: {.g-col-12 .g-col-md-4}
-### [Subodha Learning Community](https://subodha.farmhill.in)
 
-A learning community, supporting neurodiverse learners and their families through early intervention, education, employment and life, in Bangalore.
+![](/logos/subodha.png)
 
-[Visit Subodha Learning Community &rarr;](https://subodha.farmhill.in)
+Bangalore based community supporting neurodiverse learners and their families through education, employment and life
 
+Website: [Subodha Learning Community](https://subodha.farmhill.in/)
+
+Insta: [subodhacommunity](https://www.instagram.com/subodhacommunity/#)
+
+Facebook: [subodhacommunity](https://www.facebook.com/subodhacommunity)
 
 :::
 
