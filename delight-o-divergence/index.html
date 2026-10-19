@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.30">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Delights of Divergence 2025 – Farm Hill Education Trust</title>
+<title>Delights of Divergence 2026 – Farm Hill Education Trust</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -36,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f64ae6a0e647f3a45dc6bd63ae4e20f8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a3f8d6b95a8573f4bc5fa6efff4ae815.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -111,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../delight-o-divergence/index.html" aria-current="page"> 
-<span class="menu-text">Delights of Divergence 2025</span></a>
+<span class="menu-text">Delights of Divergence 2026</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -132,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Delights of Divergence 2025</h1>
+<h1 class="title">Delights of Divergence 2026</h1>
 <p class="subtitle lead">An Autism Awareness Event</p>
 </div>
 
@@ -155,17 +161,17 @@ ul.task-list li input[type="checkbox"] {
 <div class="g-col-12 g-col-md-6">
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="delights-o-divergence.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
+<p><img src="delights-o-divergence-26.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
 </figure>
 </div>
 </div>
 <div class="g-col-12 g-col-md-6">
-<section id="date-5th-april-2025" class="level3">
-<h3 class="anchored" data-anchor-id="date-5th-april-2025">Date: 5th April 2025</h3>
+<section id="date-4th-april-2026" class="level3">
+<h3 class="anchored" data-anchor-id="date-4th-april-2026">Date: 4th April 2026</h3>
 <p>Location: <a href="https://g.co/kgs/NKVLiGh">Midas Touch Bakery</a>, AECS Layout</p>
 </section>
-<section id="date-6th-april-2025" class="level3">
-<h3 class="anchored" data-anchor-id="date-6th-april-2025">Date: 6th April 2025</h3>
+<section id="date-5th-april-2026" class="level3">
+<h3 class="anchored" data-anchor-id="date-5th-april-2026">Date: 5th April 2026</h3>
 <p>Location: <a href="https://g.co/kgs/aBFL4ha">Sambhavam Center for Autism</a>, BTM Layout</p>
 <p>The teams at Sambhavam and Farm Hill conducted the first autism awareness event in 2016. Last year, for the first time, we braded the event as Delights of Divergence. We set up stalls in two different locations on two different days.</p>
 <p>Our aim is to meet people that would otherwise not come in direct touch with autism. Our stalls are set up on the side of the road, and we engage all passers by! We want to raise awareness of autism, while also raising funds through sale of art, craft and food items produced by our neurodiverse community!</p>
@@ -298,13 +304,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
