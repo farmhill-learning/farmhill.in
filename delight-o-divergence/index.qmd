@@ -1,5 +1,5 @@
 ---
-title: Delights of Divergence 2025 
+title: Delights of Divergence 2026
 subtitle: An Autism Awareness Event 
 page-layout: full
 ---
@@ -9,16 +9,16 @@ page-layout: full
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-![](delights-o-divergence.jpg){fig-align="left"}
+![](delights-o-divergence-26.jpg){fig-align="left"}
 :::
 
 ::: {.g-col-12 .g-col-md-6}
 
-### Date: 5th April 2025
+### Date: 4th April 2026
 
 Location: [Midas Touch Bakery](https://g.co/kgs/NKVLiGh), AECS Layout 
 
-### Date: 6th April 2025
+### Date: 5th April 2026
 
 Location: [Sambhavam Center for Autism](https://g.co/kgs/aBFL4ha), BTM Layout 
 
